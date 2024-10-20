@@ -1,0 +1,45 @@
+Introduction:
+Many real systems in the world can be described as
+complex networks or graphs. The entities of the system are
+represented by the nodes and the interactions between the
+nodes are represented by the edges. Examples of well-known
+networks are social media and online social networking sites
+such as Facebook, Google+, and twitter.
+ For better understanding of complex networks,
+researchers have tried to find more structural features of these
+networks. One of these features is community structure. As a
+matter of fact, community structure considered as clusters of
+densely connected groups of vertices.
+The community detection has been subject to some
+problems. In fact, no definition is universally accepted for
+community structure, then, the most of social networks such as
+Facebook, Twitter, and Flickr considered as a dynamic
+network in which changes of their community structure are
+frequently introduced over time.
+S. Bouhali and M. Ellouze, "Community detection in social network: Literature review and research perspectives," 2015 IEEE International Conference on Service Operations And Logistics, And Informatics (SOLI), Yasmine Hammamet, Tunisia, 2015, pp. 139-144
+In recent years, the use of clustering algorithms to detect
+communities in social networks has attracted researchers’
+attention. Due to the lack of access to complete information on social networks, local methods are used to increase
+efficiency and speed in large-scale networks. In most local
+methods, communities are determined by selecting important
+nodes as the core of communities. Most existing works have
+disadvantages, such as low accuracy due to inappropriate
+core selection, lack of scalability, and uncertainty in the
+results.
+A new approach LCD-SN to detect
+communities in social networks is
+a local method based on node ranking. LCD-SN algorithm
+consists of three phases. In the first phase, network nodes
+are ranked using a new criterion called IMP, and initial local
+communities are formed around high-ranked nodes. In the
+second phase, overlapping nodes are assigned to a single
+community using the GLHN similarity measure. In the third
+phase, the obtained communities in the previous phase are
+improved by post-processing (removing small communities
+and merging weak communities with strong ones). Among
+the advantages of the proposed algorithm its dependence on
+the minimum number of input parameters, its locality and no
+need for the information of the entire network, not having
+the problem of resolution limit, and most importantly, its
+certainty could be mentioned.J. Sheykhzadeh, B. Zarei and F. Soleimanian Gharehchopogh, "Community Detection in Social Networks Using a Local Approach Based on Node Ranking," in IEEE Access, vol. 12, pp. 92892-92905, 2024
+In this article we have introduced an improved wway to find the in
